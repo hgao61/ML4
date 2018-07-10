@@ -1,6 +1,3 @@
-"""MC2-P1: Market simulator."""
-
-
 import numpy as np
 import os
 import os
