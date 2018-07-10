@@ -1,7 +1,4 @@
 __author__ = 'dlyin'
-"""
-A simple wrapper for linear regression.  (c) 2015 Tucker Balch
-"""
 
 import numpy as np
 import math
@@ -49,4 +46,4 @@ class KNNLearner(object):
         return Yret
 
 if __name__=="__main__":
-    print "the secret clue is 'zzyzx'"
+    print "KNN Learner at running'"

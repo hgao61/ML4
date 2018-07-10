@@ -1,7 +1,3 @@
-"""
-A simple wrapper for linear regression.  (c) 2015 Tucker Balch
-"""
-
 import numpy as np
 
 class LinRegLearner(object):
@@ -31,4 +27,4 @@ class LinRegLearner(object):
         return (self.model_coefs[:-1] * points).sum(axis = 1) + self.model_coefs[-1]
 
 if __name__=="__main__":
-    print "the secret clue is 'zzyzx'"
+    print "Linear Regression Learner"
