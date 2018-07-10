@@ -1,7 +1,3 @@
-"""
-A simple wrapper for linear regression.  (c) 2015 Tucker Balch
-"""
-
 import numpy as np
 import math
 import pandas as pd
